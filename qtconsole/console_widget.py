@@ -16,8 +16,8 @@ import webbrowser
 from qtpy import QT6
 from qtpy import QtCore, QtGui, QtPrintSupport, QtWidgets
 
-from qtconsole.rich_text import HtmlExporter
-from qtconsole.util import MetaQObjectHasTraits, get_font, superQ
+from .rich_text import HtmlExporter
+from .util import MetaQObjectHasTraits, get_font, superQ
 
 from traitlets.config.configurable import LoggingConfigurable
 from traitlets import Bool, Enum, Integer, Unicode

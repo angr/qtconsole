@@ -15,9 +15,9 @@ from jupyter_core.paths import jupyter_runtime_dir
 from pygments.styles import get_all_styles
 
 from qtpy import QtGui, QtCore, QtWidgets
-from qtconsole import styles
-from qtconsole.jupyter_widget import JupyterWidget
-from qtconsole.usage import gui_reference
+from . import styles
+from .jupyter_widget import JupyterWidget
+from .usage import gui_reference
 
 
 def background(f):

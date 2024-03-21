@@ -2,7 +2,7 @@
 # Distributed under the terms of the Modified BSD License.
 
 from qtpy import QtGui
-from qtconsole.qstringhelpers import qstring_length
+from .qstringhelpers import qstring_length
 
 from pygments.formatters.html import HtmlFormatter
 from pygments.lexer import RegexLexer, _TokenType, Text, Error

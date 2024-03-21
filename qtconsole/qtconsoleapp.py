@@ -63,12 +63,12 @@ from qtpy import QtCore, QtGui, QtWidgets, QT_VERSION
 
 from traitlets.config.application import boolean_flag
 from traitlets.config.application import catch_config_error
-from qtconsole.jupyter_widget import JupyterWidget
-from qtconsole.rich_jupyter_widget import RichJupyterWidget
-from qtconsole import styles, __version__
-from qtconsole.mainwindow import MainWindow
-from qtconsole.client import QtKernelClient
-from qtconsole.manager import QtKernelManager
+from .jupyter_widget import JupyterWidget
+from .rich_jupyter_widget import RichJupyterWidget
+from . import styles, __version__
+from .mainwindow import MainWindow
+from .client import QtKernelClient
+from .manager import QtKernelManager
 from traitlets import (
     Dict, Unicode, CBool, Any
 )

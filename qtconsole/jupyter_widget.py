@@ -17,7 +17,7 @@ from qtpy import QtCore, QtGui
 from IPython.lib.lexers import IPythonLexer, IPython3Lexer
 from pygments.lexers import get_lexer_by_name
 from pygments.util import ClassNotFound
-from qtconsole import __version__
+from ._version import __version__
 from traitlets import Bool, Unicode, observe, default
 from .frontend_widget import FrontendWidget
 from . import styles

@@ -11,7 +11,7 @@ from qtpy import QtCore, QtGui, QtWidgets
 from traitlets import Bool
 from pygments.util import ClassNotFound
 
-from qtconsole.svg import save_svg, svg_to_clipboard, svg_to_image
+from .svg import save_svg, svg_to_clipboard, svg_to_image
 from .jupyter_widget import JupyterWidget
 from .styles import get_colors
 

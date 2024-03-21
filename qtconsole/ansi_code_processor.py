@@ -12,7 +12,7 @@ import re
 from qtpy import QtGui
 
 # Local imports
-from qtconsole.styles import dark_style
+from .styles import dark_style
 
 #-----------------------------------------------------------------------------
 # Constants and datatypes
